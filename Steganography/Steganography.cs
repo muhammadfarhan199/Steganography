@@ -15,9 +15,9 @@ namespace Steganography
     {
 
         string loadedimagepath, loadedimagepathD;
-        string message, password;
-        float size, width, height, resolution;
-        float sizeD, widthD, heightD, resolutionD;
+        string message, password = "pass";
+        float width, height;
+        float widthD, heightD;
 
         public Steganography()
         {
@@ -83,22 +83,42 @@ namespace Steganography
 
         private void btnencrypt_Click(object sender, EventArgs e)
         {
-            password = txtpassword.Text;
-
-            ICoverFile cover = new BMPCoverFile(loadedimagepath);
+            
 
             string stegofile = txt.Text;
+            string message = rtxtmessage.Text;
+            string newmessage = "";
 
-            cover.CreateStegoFile(stegofile, message, password);
+            IStegoFile stego = new BMPStegoFile(loadedimagepath, password);
+            string encodedmessage = stego.HiddenMessage;
 
-            MessageBox.Show("Message hidden successfully");
+
+            if (loadedimagepath == "")
+            {
+                MessageBox.Show("Select the file to encode");
+                return;
+            }
+
+            else if(encodedmessage == "")
+            {
+                ICoverFile cover = new BMPCoverFile(loadedimagepath);
+                cover.CreateStegoFile(stegofile, message, password);
+
+                MessageBox.Show("Message hidden successfully"); 
+            }
+            else
+
+            newmessage = encodedmessage + Environment.NewLine + message;
+
+            ICoverFile cover1 = new BMPCoverFile(loadedimagepath);
+            cover1.CreateStegoFile(stegofile, newmessage, password);
+
+            MessageBox.Show("Message hidden successfully"); 
 
         }
 
         private void btndecrypt_Click(object sender, EventArgs e)
         {
-
-            password = txtDpass.Text;
 
             if (loadedimagepathD == "")
             {
@@ -115,7 +135,6 @@ namespace Steganography
             OpenFileDialog ofd = new OpenFileDialog();
 
             ofd.Filter = "Windows Bitmap (*.bmp)|*.bmp";
-            ofd.RestoreDirectory = true;
             ofd.CheckFileExists = false;
 
             if (ofd.ShowDialog() == DialogResult.OK)
@@ -123,6 +142,7 @@ namespace Steganography
                 txt.Text = ofd.FileName;
             }
         }
+
 
     }
 }

@@ -35,9 +35,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.txt = new System.Windows.Forms.TextBox();
             this.lblstegofile = new System.Windows.Forms.Label();
-            this.txtpassword = new System.Windows.Forms.TextBox();
             this.lblloadimage = new System.Windows.Forms.Label();
-            this.lblpassword = new System.Windows.Forms.Label();
             this.lblwritemessage = new System.Windows.Forms.Label();
             this.txtloadimage = new System.Windows.Forms.TextBox();
             this.btnbrowseimage = new System.Windows.Forms.Button();
@@ -68,8 +66,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.txtDpass = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.txtbrowseD = new System.Windows.Forms.TextBox();
             this.btndecrypt = new System.Windows.Forms.Button();
             this.lblloadimgD = new System.Windows.Forms.Label();
@@ -128,9 +124,7 @@
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.txt);
             this.groupBox2.Controls.Add(this.lblstegofile);
-            this.groupBox2.Controls.Add(this.txtpassword);
             this.groupBox2.Controls.Add(this.lblloadimage);
-            this.groupBox2.Controls.Add(this.lblpassword);
             this.groupBox2.Controls.Add(this.lblwritemessage);
             this.groupBox2.Controls.Add(this.txtloadimage);
             this.groupBox2.Controls.Add(this.btnbrowseimage);
@@ -145,7 +139,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(413, 145);
+            this.button1.Location = new System.Drawing.Point(438, 186);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(80, 30);
             this.button1.TabIndex = 13;
@@ -155,7 +149,8 @@
             // 
             // txt
             // 
-            this.txt.Location = new System.Drawing.Point(158, 151);
+            this.txt.BackColor = System.Drawing.Color.MintCream;
+            this.txt.Location = new System.Drawing.Point(158, 188);
             this.txt.Name = "txt";
             this.txt.Size = new System.Drawing.Size(232, 24);
             this.txt.TabIndex = 12;
@@ -164,46 +159,27 @@
             // 
             this.lblstegofile.AutoSize = true;
             this.lblstegofile.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblstegofile.Location = new System.Drawing.Point(30, 156);
+            this.lblstegofile.Location = new System.Drawing.Point(21, 193);
             this.lblstegofile.Name = "lblstegofile";
             this.lblstegofile.Size = new System.Drawing.Size(65, 16);
             this.lblstegofile.TabIndex = 11;
             this.lblstegofile.Text = "Save As :";
             // 
-            // txtpassword
-            // 
-            this.txtpassword.BackColor = System.Drawing.Color.MintCream;
-            this.txtpassword.Location = new System.Drawing.Point(158, 195);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.PasswordChar = '*';
-            this.txtpassword.Size = new System.Drawing.Size(232, 24);
-            this.txtpassword.TabIndex = 10;
-            // 
             // lblloadimage
             // 
             this.lblloadimage.AutoSize = true;
             this.lblloadimage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblloadimage.Location = new System.Drawing.Point(21, 29);
+            this.lblloadimage.Location = new System.Drawing.Point(21, 45);
             this.lblloadimage.Name = "lblloadimage";
             this.lblloadimage.Size = new System.Drawing.Size(86, 16);
             this.lblloadimage.TabIndex = 0;
             this.lblloadimage.Text = "Load Image :";
             // 
-            // lblpassword
-            // 
-            this.lblpassword.AutoSize = true;
-            this.lblpassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblpassword.Location = new System.Drawing.Point(30, 200);
-            this.lblpassword.Name = "lblpassword";
-            this.lblpassword.Size = new System.Drawing.Size(74, 16);
-            this.lblpassword.TabIndex = 9;
-            this.lblpassword.Text = "Password :";
-            // 
             // lblwritemessage
             // 
             this.lblwritemessage.AutoSize = true;
             this.lblwritemessage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblwritemessage.Location = new System.Drawing.Point(6, 93);
+            this.lblwritemessage.Location = new System.Drawing.Point(6, 125);
             this.lblwritemessage.Name = "lblwritemessage";
             this.lblwritemessage.Size = new System.Drawing.Size(133, 16);
             this.lblwritemessage.TabIndex = 1;
@@ -212,7 +188,7 @@
             // txtloadimage
             // 
             this.txtloadimage.BackColor = System.Drawing.Color.MintCream;
-            this.txtloadimage.Location = new System.Drawing.Point(158, 24);
+            this.txtloadimage.Location = new System.Drawing.Point(158, 40);
             this.txtloadimage.Name = "txtloadimage";
             this.txtloadimage.Size = new System.Drawing.Size(232, 24);
             this.txtloadimage.TabIndex = 2;
@@ -220,7 +196,7 @@
             // btnbrowseimage
             // 
             this.btnbrowseimage.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbrowseimage.Location = new System.Drawing.Point(413, 22);
+            this.btnbrowseimage.Location = new System.Drawing.Point(438, 38);
             this.btnbrowseimage.Name = "btnbrowseimage";
             this.btnbrowseimage.Size = new System.Drawing.Size(80, 30);
             this.btnbrowseimage.TabIndex = 4;
@@ -231,7 +207,7 @@
             // rtxtmessage
             // 
             this.rtxtmessage.BackColor = System.Drawing.Color.MintCream;
-            this.rtxtmessage.Location = new System.Drawing.Point(158, 73);
+            this.rtxtmessage.Location = new System.Drawing.Point(158, 99);
             this.rtxtmessage.Name = "rtxtmessage";
             this.rtxtmessage.Size = new System.Drawing.Size(335, 58);
             this.rtxtmessage.TabIndex = 7;
@@ -496,8 +472,6 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.txtDpass);
-            this.groupBox3.Controls.Add(this.label2);
             this.groupBox3.Controls.Add(this.txtbrowseD);
             this.groupBox3.Controls.Add(this.btndecrypt);
             this.groupBox3.Controls.Add(this.lblloadimgD);
@@ -508,29 +482,10 @@
             this.groupBox3.TabIndex = 13;
             this.groupBox3.TabStop = false;
             // 
-            // txtDpass
-            // 
-            this.txtDpass.BackColor = System.Drawing.Color.MintCream;
-            this.txtDpass.Location = new System.Drawing.Point(126, 83);
-            this.txtDpass.Name = "txtDpass";
-            this.txtDpass.PasswordChar = '*';
-            this.txtDpass.Size = new System.Drawing.Size(272, 24);
-            this.txtDpass.TabIndex = 14;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 16);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Password :";
-            // 
             // txtbrowseD
             // 
             this.txtbrowseD.BackColor = System.Drawing.Color.MintCream;
-            this.txtbrowseD.Location = new System.Drawing.Point(126, 30);
+            this.txtbrowseD.Location = new System.Drawing.Point(137, 35);
             this.txtbrowseD.Name = "txtbrowseD";
             this.txtbrowseD.Size = new System.Drawing.Size(272, 24);
             this.txtbrowseD.TabIndex = 8;
@@ -538,9 +493,9 @@
             // btndecrypt
             // 
             this.btndecrypt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btndecrypt.Location = new System.Drawing.Point(442, 65);
+            this.btndecrypt.Location = new System.Drawing.Point(580, 40);
             this.btndecrypt.Name = "btndecrypt";
-            this.btndecrypt.Size = new System.Drawing.Size(117, 59);
+            this.btndecrypt.Size = new System.Drawing.Size(126, 75);
             this.btndecrypt.TabIndex = 12;
             this.btndecrypt.Text = "Decrypt";
             this.btndecrypt.UseVisualStyleBackColor = true;
@@ -550,7 +505,7 @@
             // 
             this.lblloadimgD.AutoSize = true;
             this.lblloadimgD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblloadimgD.Location = new System.Drawing.Point(19, 35);
+            this.lblloadimgD.Location = new System.Drawing.Point(31, 40);
             this.lblloadimgD.Name = "lblloadimgD";
             this.lblloadimgD.Size = new System.Drawing.Size(83, 16);
             this.lblloadimgD.TabIndex = 6;
@@ -559,7 +514,7 @@
             // btnbrowseD
             // 
             this.btnbrowseD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnbrowseD.Location = new System.Drawing.Point(442, 28);
+            this.btnbrowseD.Location = new System.Drawing.Point(441, 33);
             this.btnbrowseD.Name = "btnbrowseD";
             this.btnbrowseD.Size = new System.Drawing.Size(80, 30);
             this.btnbrowseD.TabIndex = 10;
@@ -628,8 +583,6 @@
         private System.Windows.Forms.RichTextBox rtxtmessage;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog2;
-        private System.Windows.Forms.TextBox txtpassword;
-        private System.Windows.Forms.Label lblpassword;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
@@ -643,8 +596,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox txtDpass;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtInfoERes;
         private System.Windows.Forms.TextBox txtInfoEWidth;
         private System.Windows.Forms.TextBox txtinfoEHeight;
