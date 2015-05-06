@@ -1,0 +1,20 @@
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\bin\Debug\Steganography.exe.config
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\bin\Debug\Steganography.exe
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\bin\Debug\Steganography.pdb
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\obj\Debug\Steganography.csprojResolveAssemblyReference.cache
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\obj\Debug\Steganography.main.resources
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\obj\Debug\Steganography.function.resources
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\obj\Debug\Steganography.csproj.GenerateResource.Cache
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\obj\Debug\Steganography.exe
+c:\users\muhammad\documents\visual studio 2013\Projects\Steganography\Steganography\obj\Debug\Steganography.pdb
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\bin\Debug\Steganography.exe.config
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\obj\Debug\Steganography.exe
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\obj\Debug\Steganography.pdb
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\bin\Debug\Steganography.exe
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\obj\Debug\Steganography.csproj.GenerateResource.Cache
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\bin\Debug\Steganography.pdb
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\bin\Debug\stego.dll
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\obj\Debug\Steganography.Steganography.resources
+C:\Users\Muhammad\Documents\GitHub\Steganography\Steganography\obj\Debug\Steganography.csprojResolveAssemblyReference.cache
